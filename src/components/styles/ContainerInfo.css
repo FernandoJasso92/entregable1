@@ -1,0 +1,41 @@
+.containerInfo__title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 5px 5px 1px rgb(140, 59, 83);
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.containerInfo__phrase {
+    color: #f5e8ff;
+    background-image: url("/images/neon.png");
+    padding: 90px 80px;
+    text-align: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.containerInfo__author {
+    background-color: rgb(183, 166, 213);
+    color: rgb(184, 80, 160);
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--morado);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background 200ms ease;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.button:hover {
+    background-color: rgb(237, 6, 183);
+}

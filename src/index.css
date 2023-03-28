@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.root {
+  --background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+  --blanco: #FFFFFF;
+  --azul:#0f98ff;
+  --morado:#8c2056;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
