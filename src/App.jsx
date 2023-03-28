@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import ContainerInfo from './components/containerInfo'
+import ContainerInfo from './components/ContainerInfo'
 import db from "./db/db.json"
 
 const images = ["bg1", "bg2", "bg3", "bg4"]
